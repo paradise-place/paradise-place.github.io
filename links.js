@@ -6,4 +6,5 @@ export default {
   "kya 🌱": "https://withkya.com",
   "Mokesmoe":	"https://mokesmoe.com/",
   "brin": "brin.neocities.org",
+  "amber":	"https://www.fiddlemouth.gay/"
 }
