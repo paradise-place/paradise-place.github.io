@@ -4,5 +4,6 @@ export default {
   "paradise.fm": 	"https://paradise-place.github.io/paradise.fm/",
   "Mer Grazzini":	"https://mergrazzini.itch.io",
   "kya 🌱": "https://withkya.com",
-  "Mokesmoe":	"https://mokesmoe.com/"
+  "Mokesmoe":	"https://mokesmoe.com/",
+  "brin": "brin.neocities.org",
 }
