@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <link rel="icon" href='data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" height="60" width="60"><text x="0" y="10" font-size="50" dominant-baseline="hanging">⚫</text></svg>' />
   <link rel="stylesheet" href="/style.css">
-  <script type="module" src="links.js"></script>
+  <script src="links.js"></script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -32,12 +32,13 @@
   </div>
   <div id="links"></div>
   <script type="module">
+    const NUM_LINKS = 100
     import urls from "/links.js"
     function main() {
       const $links = document.getElementById("links")
       const $void = document.getElementById("void")
       var entries = Object.entries(urls)
-      var repetitions = Math.ceil(100.0 / entries.length)
+      var repetitions = Math.ceil(NUM_LINKS / entries.length)
 
       for (let [k, v] of entries) {
         for (let i = 0; i < repetitions; i++) {
