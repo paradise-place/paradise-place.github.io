@@ -45,6 +45,8 @@
           const $link = document.createElement("A")
           $link.innerHTML = k
           $link.href = v
+          $link.target="_blank" 
+          $link.rel="noopener noreferrer"
           $link.classList.toggle("link")
           $link.style.top = `${Math.random() * 100}%`
           $link.style.left = `${Math.random() * 100}%`
