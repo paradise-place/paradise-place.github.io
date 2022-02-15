@@ -11,4 +11,12 @@ export default {
   "q1": "https://quewon.github.io/",
   "ash k": "https://ash-k.dev/",
   "Erg": "https://ergman.itch.io/",
+  "sirmilkman":	"https://sirmilkman.itch.io/",
+  "Corey Hardt":"https://coreyhardt.itch.io/",
+  "Jonny Hopkins":"https://jwhop.github.io/",
+  "barndles!!":"https://barndles.itch.io/",
+  "jackk":"https://jackkutilek.com",
+  "waporwave :)":"https://waporwave.itch.io/",
+  "boon...":"https://homieboon.neocities.org/",
+  "droqen":"https://www.droqen.com/",
 }
