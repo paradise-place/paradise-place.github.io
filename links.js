@@ -19,4 +19,6 @@ export default {
   "waporwave :)":"https://waporwave.itch.io/",
   "boon...":"https://homieboon.neocities.org/",
   "droqen":"https://www.droqen.com/",
+  "Gab": "https://matthewlacker.itch.io/",
+  "Linker":	"https://linker-gamedev.squarespace.com/",
 }
