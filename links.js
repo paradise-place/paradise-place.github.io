@@ -19,4 +19,5 @@ export default {
   "waporwave :)":"https://waporwave.itch.io/",
   "boon...":"https://homieboon.neocities.org/",
   "droqen":"https://www.droqen.com/",
+  "ty": "https://tycobb.club",
 }
