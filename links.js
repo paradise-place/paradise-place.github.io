@@ -21,4 +21,8 @@ export default {
   "droqen":"https://www.droqen.com/",
   "Gab": "https://matthewlacker.itch.io/",
   "Linker":	"https://linker-gamedev.squarespace.com/",
+  "torcado":	"https://torcado.com/",
+  "pancelor":	"https://pancelor.com/",
+  "minotalen":	"https://minotalen.itch.io",
+  "ty": "https://tycobb.club",
 }
