@@ -25,5 +25,5 @@ export default {
   "pancelor":	"https://pancelor.com/",
   "minotalen":	"https://minotalen.itch.io",
   "ty": "https://tycobb.club",
-  "bloatedloaf": "https://bloafgame.neocities.org/",
+  "bloatedloaf": "https://bloatedloafgame.neocities.org/",
 }
