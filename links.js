@@ -25,4 +25,5 @@ export default {
   "pancelor":	"https://pancelor.com/",
   "minotalen":	"https://minotalen.itch.io",
   "ty": "https://tycobb.club",
+  "bloatedloaf": "https://bloatedloafyt.github.io/#0,0",
 }
