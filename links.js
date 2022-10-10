@@ -28,4 +28,5 @@ export default {
   "bloatedloaf": "https://bloatedloafgame.neocities.org/",
   "luka rizzi": "https://lukahizoalgo.itch.io/",
   "tallywinkle": "https://tallywinkle.itch.io/",
+  "ComfieDev": "https://garden-of-comfie.neocities.org/",
 }
