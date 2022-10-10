@@ -29,4 +29,6 @@ export default {
   "luka rizzi": "https://lukahizoalgo.itch.io/",
   "tallywinkle": "https://tallywinkle.itch.io/",
   "ComfieDev": "https://garden-of-comfie.neocities.org/",
+  "jwest":	"https://jwest.itch.io/",
+  "Celesti":	"https://s9menine.itch.io/",
 }
