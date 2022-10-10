@@ -37,15 +37,29 @@
     function main() {
       const $links = document.getElementById("links")
       const $void = document.getElementById("void")
-      var entries = Object.entries(urls)
-      var repetitions = Math.ceil(NUM_LINKS / entries.length)
+      const $root = document.querySelector(':root');
+
+      let entries = Object.entries(urls)
+      let repetitions = Math.ceil(NUM_LINKS / entries.length)
+
+      const queryString = window.location.search;
+      const urlParams = new URLSearchParams(queryString);
+      console.log(urlParams)
+      if(urlParams.has("bg")) {
+        $root.style.setProperty("--background", `#${urlParams.get("bg")}`)
+      }
+
+      if(urlParams.has("fg")) {
+        $root.style.setProperty("--foreground", `#${urlParams.get("fg")}`)
+      }
+
 
       for (let [k, v] of entries) {
         for (let i = 0; i < repetitions; i++) {
           const $link = document.createElement("A")
           $link.innerHTML = k
           $link.href = v
-          $link.target="_blank" 
+          $link.target="_blank"
           $link.rel="noopener noreferrer"
           $link.classList.toggle("link")
           $link.style.top = `${Math.random() * 100}%`
@@ -69,6 +83,11 @@
 </body>
 
 <style>
+  :root {
+    --background: #000000;
+    --foreground: #ffffff;
+  }
+
   html {
     height: 100%;
     display: flex;
@@ -78,7 +97,7 @@
   }
 
   body {
-    background-color: #000000;
+    background-color: var(--background);
     width: 100%;
     height: 100%;
     padding: 0px;
@@ -87,7 +106,7 @@
 
   .title {
     font-size: 4vmin;
-    color: white;
+    color: var(--foreground);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
   }
 
@@ -114,7 +133,7 @@
   }
 
   #links {
-    color: black;
+    background-color: var(--background);
     position: fixed;
     top: 0px;
     left: 0px;
@@ -130,7 +149,7 @@
     /* transform: rotate(-90deg) translate(45%, 100%); */
     /* transform-origin: 0% 100%; */
     transition: opacity 3500ms ease-out;
-    color: #ababab;
+    color: var(--foreground);
     opacity: 0%;
     /* max-height: 300px; */
   }
