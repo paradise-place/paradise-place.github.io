@@ -31,4 +31,7 @@ export default {
   "ComfieDev": "https://garden-of-comfie.neocities.org/",
   "jwest":	"https://jwest.itch.io/",
   "Celesti":	"https://s9menine.itch.io/",
+  "yongmin park": "https://twitter.com/yongminparks",
+  "Aplove":	"https://aplovestudio.itch.io",
+  "slimewitch":	"https://slimewitch.neocities.org/",
 }
