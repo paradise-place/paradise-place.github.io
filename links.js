@@ -34,4 +34,7 @@ export default {
   "yongmin park": "https://twitter.com/yongminparks",
   "Aplove":	"https://aplovestudio.itch.io",
   "slimewitch":	"https://slimewitch.neocities.org/",
+  "Namida Sai": "https://namidasai.itch.io/",
+  "Sapazu": "https://sapazu.itch.io/",
+  "Leaves": "https://brineleaves.itch.io/",
 }
