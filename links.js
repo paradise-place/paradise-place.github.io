@@ -37,4 +37,5 @@ export default {
   "Namida Sai": "https://namidasai.itch.io/",
   "Sapazu": "https://sapazu.itch.io/",
   "Leaves": "https://brineleaves.itch.io/",
+  "theshepherdshound": "https://theshepherdshound.itch.io/",
 }
