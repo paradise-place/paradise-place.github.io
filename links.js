@@ -38,4 +38,5 @@ export default {
   "Sapazu": "https://sapazu.itch.io/",
   "Leaves": "https://brineleaves.itch.io/",
   "theshepherdshound": "https://theshepherdshound.itch.io/",
+  "borb": "https://borbware.itch.io",
 }
